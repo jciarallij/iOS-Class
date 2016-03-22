@@ -1,8 +1,8 @@
 //
 //  ContactListViewController.swift
-//  Lesson5
+//  ContactApp
 //
-//  Created by Joshua Ciaralli on 3/10/16.
+//  Created by Joshua Ciaralli on 3/15/16.
 //  Copyright © 2016 DigitalCrafts. All rights reserved.
 //
 
@@ -10,30 +10,26 @@ import UIKit
 
 class ContactListViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
-    @IBOutlet weak var tableView: UITableView!
-   
+     @IBOutlet weak var tableView: UITableView!
     
     var contacts : [Contact]?
-    
-    
+   
     override func viewDidLoad() {
-        super.viewDidLoad()
         
-        self.contacts = DataManager.sharedManager.loadContacts()
+        super.viewDidLoad()
         
         self.tableView.dataSource = self
         self.tableView.delegate = self
-        // Do any additional setup after loading the view.
+        
+        
+        self.contacts = DataManager.sharedManager.loadContacts()
     }
 
+    
+    
     func tableView(tableView: UITableView, numberOfRowsInSection
         section: Int) -> Int {
             return (self.contacts?.count)!
-    }
-    
-    
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        <#code#>
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath
@@ -41,10 +37,40 @@ class ContactListViewController: UIViewController,UITableViewDataSource,UITableV
             //First get the contact for the row
             let contact = self.contacts![indexPath.row]
             let cell = UITableViewCell()
-            cell.textLabel?.text = "\(contact.firstName!) \
-            (contact.lastName!)"
+            cell.textLabel?.text = "\(contact.firstName!) \(contact.lastName!)"
             return cell
     }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath
+        indexPath: NSIndexPath) {
+            self.performSegueWithIdentifier("ContactDetailSegue", sender:
+                self)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender:
+        AnyObject?) {
+            if segue.identifier == "ContactDetailSegue" {
+                if let selectedCell =
+                    self.tableView.indexPathForSelectedRow {
+                        let selectedContact = self.contacts![selectedCell.row]
+                        if let detailVC = segue.destinationViewController as?
+                            ContactsDetailViewController {
+                                detailVC.selectedContact = selectedContact
+                        }
+                }
+            }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -58,6 +84,7 @@ class ContactListViewController: UIViewController,UITableViewDataSource,UITableV
         // Dispose of any resources that can be recreated.
     }
     
+    
 
     /*
     // MARK: - Navigation
@@ -70,4 +97,3 @@ class ContactListViewController: UIViewController,UITableViewDataSource,UITableV
     */
 
 }
-

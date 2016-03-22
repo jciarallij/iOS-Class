@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F2F19D81C946DB10090996A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F19D71C946DB10090996A /* AppDelegate.swift */; };
+		1F2F19DA1C946DB10090996A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F19D91C946DB10090996A /* ViewController.swift */; };
+		1F2F19DD1C946DB10090996A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2F19DB1C946DB10090996A /* Main.storyboard */; };
+		1F2F19DF1C946DB10090996A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2F19DE1C946DB10090996A /* Assets.xcassets */; };
+		1F2F19E21C946DB10090996A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2F19E01C946DB10090996A /* LaunchScreen.storyboard */; };
+		1F2F19ED1C946DB10090996A /* betterhackgameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F19EC1C946DB10090996A /* betterhackgameTests.swift */; };
+		1F2F19F81C946DB10090996A /* betterhackgameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F19F71C946DB10090996A /* betterhackgameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F2F19E91C946DB10090996A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F2F19CC1C946DB10090996A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F2F19D31C946DB10090996A;
+			remoteInfo = betterhackgame;
+		};
+		1F2F19F41C946DB10090996A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F2F19CC1C946DB10090996A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F2F19D31C946DB10090996A;
+			remoteInfo = betterhackgame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F2F19D41C946DB10090996A /* betterhackgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = betterhackgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2F19D71C946DB10090996A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F2F19D91C946DB10090996A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F2F19DC1C946DB10090996A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F2F19DE1C946DB10090996A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F2F19E11C946DB10090996A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F2F19E31C946DB10090996A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F2F19E81C946DB10090996A /* betterhackgameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = betterhackgameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2F19EC1C946DB10090996A /* betterhackgameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betterhackgameTests.swift; sourceTree = "<group>"; };
+		1F2F19EE1C946DB10090996A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F2F19F31C946DB10090996A /* betterhackgameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = betterhackgameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2F19F71C946DB10090996A /* betterhackgameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betterhackgameUITests.swift; sourceTree = "<group>"; };
+		1F2F19F91C946DB10090996A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F2F19D11C946DB10090996A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2F19E51C946DB10090996A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2F19F01C946DB10090996A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F2F19CB1C946DB10090996A = {
+			isa = PBXGroup;
+			children = (
+				1F2F19D61C946DB10090996A /* betterhackgame */,
+				1F2F19EB1C946DB10090996A /* betterhackgameTests */,
+				1F2F19F61C946DB10090996A /* betterhackgameUITests */,
+				1F2F19D51C946DB10090996A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F2F19D51C946DB10090996A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F2F19D41C946DB10090996A /* betterhackgame.app */,
+				1F2F19E81C946DB10090996A /* betterhackgameTests.xctest */,
+				1F2F19F31C946DB10090996A /* betterhackgameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F2F19D61C946DB10090996A /* betterhackgame */ = {
+			isa = PBXGroup;
+			children = (
+				1F2F19D71C946DB10090996A /* AppDelegate.swift */,
+				1F2F19D91C946DB10090996A /* ViewController.swift */,
+				1F2F19DB1C946DB10090996A /* Main.storyboard */,
+				1F2F19DE1C946DB10090996A /* Assets.xcassets */,
+				1F2F19E01C946DB10090996A /* LaunchScreen.storyboard */,
+				1F2F19E31C946DB10090996A /* Info.plist */,
+			);
+			path = betterhackgame;
+			sourceTree = "<group>";
+		};
+		1F2F19EB1C946DB10090996A /* betterhackgameTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F2F19EC1C946DB10090996A /* betterhackgameTests.swift */,
+				1F2F19EE1C946DB10090996A /* Info.plist */,
+			);
+			path = betterhackgameTests;
+			sourceTree = "<group>";
+		};
+		1F2F19F61C946DB10090996A /* betterhackgameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F2F19F71C946DB10090996A /* betterhackgameUITests.swift */,
+				1F2F19F91C946DB10090996A /* Info.plist */,
+			);
+			path = betterhackgameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F2F19D31C946DB10090996A /* betterhackgame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2F19FC1C946DB10090996A /* Build configuration list for PBXNativeTarget "betterhackgame" */;
+			buildPhases = (
+				1F2F19D01C946DB10090996A /* Sources */,
+				1F2F19D11C946DB10090996A /* Frameworks */,
+				1F2F19D21C946DB10090996A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = betterhackgame;
+			productName = betterhackgame;
+			productReference = 1F2F19D41C946DB10090996A /* betterhackgame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F2F19E71C946DB10090996A /* betterhackgameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2F19FF1C946DB10090996A /* Build configuration list for PBXNativeTarget "betterhackgameTests" */;
+			buildPhases = (
+				1F2F19E41C946DB10090996A /* Sources */,
+				1F2F19E51C946DB10090996A /* Frameworks */,
+				1F2F19E61C946DB10090996A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F2F19EA1C946DB10090996A /* PBXTargetDependency */,
+			);
+			name = betterhackgameTests;
+			productName = betterhackgameTests;
+			productReference = 1F2F19E81C946DB10090996A /* betterhackgameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F2F19F21C946DB10090996A /* betterhackgameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2F1A021C946DB10090996A /* Build configuration list for PBXNativeTarget "betterhackgameUITests" */;
+			buildPhases = (
+				1F2F19EF1C946DB10090996A /* Sources */,
+				1F2F19F01C946DB10090996A /* Frameworks */,
+				1F2F19F11C946DB10090996A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F2F19F51C946DB10090996A /* PBXTargetDependency */,
+			);
+			name = betterhackgameUITests;
+			productName = betterhackgameUITests;
+			productReference = 1F2F19F31C946DB10090996A /* betterhackgameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F2F19CC1C946DB10090996A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DigitalCrafts;
+				TargetAttributes = {
+					1F2F19D31C946DB10090996A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RSX2DDLBZ5;
+					};
+					1F2F19E71C946DB10090996A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1F2F19D31C946DB10090996A;
+					};
+					1F2F19F21C946DB10090996A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1F2F19D31C946DB10090996A;
+					};
+				};
+			};
+			buildConfigurationList = 1F2F19CF1C946DB10090996A /* Build configuration list for PBXProject "betterhackgame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F2F19CB1C946DB10090996A;
+			productRefGroup = 1F2F19D51C946DB10090996A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F2F19D31C946DB10090996A /* betterhackgame */,
+				1F2F19E71C946DB10090996A /* betterhackgameTests */,
+				1F2F19F21C946DB10090996A /* betterhackgameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F2F19D21C946DB10090996A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2F19E21C946DB10090996A /* LaunchScreen.storyboard in Resources */,
+				1F2F19DF1C946DB10090996A /* Assets.xcassets in Resources */,
+				1F2F19DD1C946DB10090996A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2F19E61C946DB10090996A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2F19F11C946DB10090996A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F2F19D01C946DB10090996A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2F19DA1C946DB10090996A /* ViewController.swift in Sources */,
+				1F2F19D81C946DB10090996A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2F19E41C946DB10090996A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2F19ED1C946DB10090996A /* betterhackgameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2F19EF1C946DB10090996A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2F19F81C946DB10090996A /* betterhackgameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F2F19EA1C946DB10090996A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F2F19D31C946DB10090996A /* betterhackgame */;
+			targetProxy = 1F2F19E91C946DB10090996A /* PBXContainerItemProxy */;
+		};
+		1F2F19F51C946DB10090996A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F2F19D31C946DB10090996A /* betterhackgame */;
+			targetProxy = 1F2F19F41C946DB10090996A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F2F19DB1C946DB10090996A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F2F19DC1C946DB10090996A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F2F19E01C946DB10090996A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F2F19E11C946DB10090996A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F2F19FA1C946DB10090996A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F2F19FB1C946DB10090996A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F2F19FD1C946DB10090996A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = betterhackgame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.betterhackgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F2F19FE1C946DB10090996A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = betterhackgame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.betterhackgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F2F1A001C946DB10090996A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = betterhackgameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.betterhackgameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/betterhackgame.app/betterhackgame";
+			};
+			name = Debug;
+		};
+		1F2F1A011C946DB10090996A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = betterhackgameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.betterhackgameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/betterhackgame.app/betterhackgame";
+			};
+			name = Release;
+		};
+		1F2F1A031C946DB10090996A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = betterhackgameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.betterhackgameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = betterhackgame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1F2F1A041C946DB10090996A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = betterhackgameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.betterhackgameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = betterhackgame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F2F19CF1C946DB10090996A /* Build configuration list for PBXProject "betterhackgame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2F19FA1C946DB10090996A /* Debug */,
+				1F2F19FB1C946DB10090996A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F2F19FC1C946DB10090996A /* Build configuration list for PBXNativeTarget "betterhackgame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2F19FD1C946DB10090996A /* Debug */,
+				1F2F19FE1C946DB10090996A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F2F19FF1C946DB10090996A /* Build configuration list for PBXNativeTarget "betterhackgameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2F1A001C946DB10090996A /* Debug */,
+				1F2F1A011C946DB10090996A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F2F1A021C946DB10090996A /* Build configuration list for PBXNativeTarget "betterhackgameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2F1A031C946DB10090996A /* Debug */,
+				1F2F1A041C946DB10090996A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F2F19CC1C946DB10090996A /* Project object */;
+}
